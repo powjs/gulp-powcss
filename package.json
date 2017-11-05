@@ -1,0 +1,31 @@
+{
+  "name": "gulp-powcss",
+  "version": "1.0.0",
+  "description": "A PowCSS Context for Gulp",
+  "main": "index.js",
+  "repository": "git@github.com:powjs/gulp-powcss.git",
+  "author": "YU HengChun <achun.shx@qq.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "css",
+    "powcss"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "powcss": "^1.0.5",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-dest": "^0.2.0",
+    "gulp-concat": "^2.6.1"
+  },
+  "scripts": {
+    "test": "gulp --cwd test"
+  }
+}
